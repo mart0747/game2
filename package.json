@@ -9,10 +9,15 @@
         "lint": "jshint **.js"
     },
     "author": "jbm",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mart0747/game2.git"
+    },
     "license": "ISC",
     "dependencies": {
         "express": "^4.14.0",
         "express-handlebars": "^3.0.0",
+        "morgan": "^1.7.0",
         "nodemon": "^1.11.0"
     }
 }

@@ -4,7 +4,7 @@ var app = express();
 //setup handlebars view engine
 var handlebars = require('express-handlebars').create({
     defaultLayout: 'main'
-});;
+});
 
 var fortune = require('./lib/fortune.js');
 

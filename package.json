@@ -1,17 +1,18 @@
 {
-  "name": "mygame2",
-  "version": "1.0.0",
-  "description": "using express and angular to build out my game",
-  "main": "webserver.js",
-  "scripts": {
-    "start": "node webserver.js",
-    "test": "test"
-  },
-  "author": "jbm",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0",
-    "nodemon": "^1.11.0"
-  }
+    "name": "mygame2",
+    "version": "1.0.0",
+    "description": "using express and angular to build out my game",
+    "main": "webserver.js",
+    "scripts": {
+        "start": "node webserver.js",
+        "test": "test",
+        "lint": "jshint **.js"
+    },
+    "author": "jbm",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.14.0",
+        "express-handlebars": "^3.0.0",
+        "nodemon": "^1.11.0"
+    }
 }

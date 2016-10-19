@@ -59,6 +59,7 @@ app.get('/api/players', function (req, res) {
             res.json(300, err);
         }
 
+        console.log(Players);
         res.status(200).json(Players);
     });
 });
@@ -67,14 +68,16 @@ app.post('/api/player/', function (req, res) {
     console.log(req.body);
 
     var newRecord = new Player({
-        name: req.body.name,
+        username: req.body.username,
+        firstname: req.body.firstname,
+        lastname: req.body.lastname,
         ranking: req.body.ranking
     });
 
     newRecord.save(function (err, a) {
         if (err) {
             console.log(err);
-            res.json(err);
+            res.status(300).json(err);
         } else {
             res.status(200).json({
                 id: a._id

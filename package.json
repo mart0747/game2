@@ -1,23 +1,25 @@
 {
-    "name": "mygame2",
-    "version": "1.0.0",
-    "description": "using express and angular to build out my game",
-    "main": "webserver.js",
-    "scripts": {
-        "start": "node webserver.js",
-        "test": "test",
-        "lint": "jshint **.js"
-    },
-    "author": "jbm",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mart0747/game2.git"
-    },
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.14.0",
-        "express-handlebars": "^3.0.0",
-        "morgan": "^1.7.0",
-        "nodemon": "^1.11.0"
-    }
+  "name": "mygame2",
+  "version": "1.0.0",
+  "description": "using express and angular to build out my game",
+  "main": "webserver.js",
+  "scripts": {
+    "start": "node webserver.js",
+    "test": "test",
+    "lint": "jshint **.js"
+  },
+  "author": "jbm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mart0747/game2.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.6.4",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0"
+  }
 }
